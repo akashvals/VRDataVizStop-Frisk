@@ -8,11 +8,14 @@ Virtual View of New York Stop and Frisk Data
 
 ## Introduction
 Throughout this course, we have been looking at various aspects and implementations of of virtual reality, to try to get a scope of the entire field. We started at the basics of virtual reality, while working on making our own apps to demonstrate some use of it. We then went on to make an augmented reality application for the CSA Open day, to present data in an exciting way, while still having the participants interacting with the real world. Our final project, which is the subject of the report, is to build a system of data visualization using virtual reality, not as a utility, but to tell a story. This project builds upon the major theme of the course, which asks the question “How is virtual reality more useful than other technologies?”, and data visualization is an obvious foray into creating useful virtual reality visualizations. 
-Stop and Frisk
+
+## Stop and Frisk
 The data that we used is data collected from the Stop-and-frisk program in New York City, where NYC police officers are allowed to stop any pedestrian they find suspicious, question them, and then frisk them for any contraband they might have. After this, they fill out a form, which is where we get our data from. All though this seems good in theory, in reality this system comes with lots of problems. For one, this system leads in very small percentage of arrests (18% in 2014), meaning lots of citizens are being needlessly harassed for no reason. In addition, because of internal racial biases, police officers are more likely to find people of color (e.g. African Americans) at fault, leading to many more minorities stopped and frisked on the street compared to white people. This in turn also lead to the arrest of many more people of color, even though the stopped to arrested ratio in all racial groups is around the same. This is only evidenced by the data though, which we worked to visualize. To quote citylab, “While it'll be years before researchers can tell us with any degree of certainty whether stop-and-frisk "works," it's definitely fair to say right now that it disproportionately humiliates, for specious reasons, people of color who are not illegally carrying firearms.”
-Our Data
+
+## Our Data
 The data we are using is the 2014 Stop and Frisk data collected by the police. It is a 3,000 column random sample of a 45,000 column data set, with several data points for each person stopped, most of them being binary values. The data we most primarily used is the suspect’s race, and whether they were frisked, searched, and/or arrested, as well as what they were suspected/arrested for. As most of the data points were binary, it became hard to place them on a grid, so we also included attributes like a suspect's age and height. Other data that might be interesting to visualize would include the type of weapons found on a suspect,  if physical force was used on the suspect, and categorizing the crimes themselves.
-Our Visualization
+
+## Our Visualization
 As stated, our visualization of the data is in a three point axis with an x,y, and z, to allow for any data to be mapped onto our program to allow quick experimentation. The x,y, and z axis may vary, but each person mapped is mapped according to a specific shape, depending on the race of the suspect. For example, black people are displayed as cylinders. The object’s size will be based on the build of the suspect, and the color of the object is the combined RGB for the qualities of being frisked, searched, and had contraband found. For example, someone who has only been frisked will be red, someone who has been frisked and searched will be yellow (R+G), and someone with all three will be black (R+G+B). This allows the user to quickly determine the status of the suspect. Clicking the screen shows only those who have been arrested, hovering over a suspect will show you all of the data on that suspect, and holding the mouse click will transport the user wherever they are looking. 
 
 
@@ -88,11 +91,11 @@ Some naysayers might argue that data visualization in Virtual Reality is fairly 
 
 
 
-Sources
-Data set and statistics from: http://www.nyclu.org/content/stop-and-frisk-data 
-Data set codebook: https://drive.google.com/file/d/0B8a49uSgciSMQjNIYzl0eEozZm8/view 
-WIkipedia Article on Stop and Frisk: https://en.wikipedia.org/wiki/Stop-and-frisk_in_New_York_City 
-Demographics of Manhattan: https://en.wikipedia.org/wiki/Demographics_of_Manhattan 
-Machine Learning article: http://columbiaspectator.com/opinion/2016/04/04/machine-learning-and-stop-and-think
-2D Visualization: http://bklynr.com/all-the-stops/ 
-Report on above visualization: http://www.citylab.com/politics/2013/09/there-are-lot-ways-visualize-stop-and-frisk-one-best/6835/ 
+## Sources
+1. Data set and statistics from: http://www.nyclu.org/content/stop-and-frisk-data 
+2. Data set codebook: https://drive.google.com/file/d/0B8a49uSgciSMQjNIYzl0eEozZm8/view 
+3. Wikipedia Article on Stop and Frisk: https://en.wikipedia.org/wiki/Stop-and-frisk_in_New_York_City 
+4. Demographics of Manhattan: https://en.wikipedia.org/wiki/Demographics_of_Manhattan 
+5. Machine Learning article: http://columbiaspectator.com/opinion/2016/04/04/machine-learning-and-stop-and-think
+6. 2D Visualization: http://bklynr.com/all-the-stops/ 
+7. Report on above visualization: http://www.citylab.com/politics/2013/09/there-are-lot-ways-visualize-stop-and-frisk-one-best/6835/ 
