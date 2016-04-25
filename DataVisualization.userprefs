@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\JsData.js">
+    <Files>
+      <File FileName="Assets\Scripts\JsData.js" Line="520" Column="5" />
+      <File FileName="Assets\Scripts\MoveScript.js" Line="12" Column="20" />
+      <File FileName="Assets\Scripts\hitObject.js" Line="30" Column="37" />
+      <File FileName="Assets\Scripts\RotateScript.js" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
