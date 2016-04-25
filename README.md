@@ -1,8 +1,11 @@
 # VRDataVizStop-Frisk
 
 Virtual Reality and its Applications
+
 Arya Boudaie and Akash Valsangkar
+
 Final Project: Data Visualization
+
 Virtual View of New York Stop and Frisk Data
 
 
